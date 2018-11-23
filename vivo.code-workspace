@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"uri": "sftp://vivo/",
+			"name": "vivo (Remote)"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,144 @@
+#header{
+    width:100%;
+    height:50px;
+    background:#008cd7;
+    color:white;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+#logo{
+    background:#008cd7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navitem{
+    color:white;
+    padding:5px;
+    margin:0px 10px;
+    text-decoration: none;
+}
+
+#status_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#status_input_wrap{
+    display: flex;
+}
+#status_title{
+    font-weight: bold;
+    margin-top:10px;
+}
+#date_title{
+    font-weight:bold;
+}
+#status_input{
+    margin:10px;
+    border:none;
+    border-bottom:solid 1px grey;
+    background: whitesmoke;
+}
+#status_submit{
+    margin:10px;
+    padding:5px;
+    border-radius:5px;
+    background:#008cd7;
+    color:white;
+    cursor: pointer;
+}
+#date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#date_input_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#date_title{
+    padding:5px;
+    width:30px;
+}
+#fromdate{
+    border:none;
+    border-bottom:solid 1px grey;
+    margin:5px;
+    background: whitesmoke;
+    width:120px;
+}
+#todate{
+    border:none;
+    border-bottom:solid 1px grey;
+    margin:5px;
+    background: whitesmoke;
+    width:120px;
+}
+#date_submit{
+    background:#008cd7;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+#excel_submit{
+    background:#008cd7;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    margin:10px;
+}
+#table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#listWrap{
+    border:solid 1px #008cd7;
+    padding:10px;
+    border-radius: 10px;
+    margin:10px;
+    background: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.212);
+    width:90%;
+    position: relative;
+}
+#title{
+    font-weight: bold;
+    font-size: 12px;
+    color:#008cd7;
+}
+#close{
+    position: absolute;
+    right:5px;
+    top:2px;
+    font-size: 50;
+    font-weight: bold;
+    cursor: pointer;
+    color:grey;
+}
+
+#logout{
+    position: absolute;
+    top:5px;
+    right:10px;
+    font-size: 50;
+    font-weight: bold;
+    cursor: pointer;
+    color:white;
+}

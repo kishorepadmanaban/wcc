@@ -28,7 +28,7 @@ class Dashboard extends Component {
         username:this.state.username,
         password:this.state.password
     }
-    axios.post("http://159.65.146.12:3010/api/login",body).then(response => {
+    axios.post("http://159.65.146.12:3010/api/adminlogin",body).then(response => {
       console.log(response.data);
       if(response.data.status==="success")
       {
@@ -64,7 +64,7 @@ class Dashboard extends Component {
                 <p>Username</p>
                 <input id="status_input" name="username" type="text" onChange={this.handleChange} value={this.state.username}/>
                 <p>Password</p>
-                <input id="status_input" name="password" type="text" onChange={this.handleChange} value={this.state.password}/>
+                <input id="status_input" name="password" type="password" onChange={this.handleChange} value={this.state.password}/>
                 
                 <div onClick={this.handleSubmit} id="status_submit">
                     Submit

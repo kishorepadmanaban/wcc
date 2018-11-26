@@ -1,4 +1,4 @@
-package com.vivoapp;
+package com.wcc;
 
 import android.app.Application;
 

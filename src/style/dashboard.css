@@ -1,7 +1,7 @@
 #header{
     width:100%;
     height:50px;
-    background:#008cd7;
+    background:#0072b8;
     color:white;
     font-size: 16px;
     display: flex;
@@ -10,7 +10,7 @@
 
 }
 #logo{
-    background:#008cd7;
+    background:#0072b8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@
     margin:10px;
     padding:5px;
     border-radius:5px;
-    background:#008cd7;
+    background:#0072b8;
     color:white;
     cursor: pointer;
 }
@@ -82,14 +82,14 @@
     width:120px;
 }
 #date_submit{
-    background:#008cd7;
+    background:#0072b8;
     padding:5px;
     border-radius: 5px;
     color:white;
     cursor: pointer;
 }
 #excel_submit{
-    background:#008cd7;
+    background:#0072b8;
     padding:5px;
     border-radius: 5px;
     color:white;
@@ -109,7 +109,7 @@
     flex-direction: column;
 }
 #listWrap{
-    border:solid 1px #008cd7;
+    border:solid 1px #0072b8;
     padding:10px;
     border-radius: 10px;
     margin:10px;
@@ -121,7 +121,7 @@
 #title{
     font-weight: bold;
     font-size: 12px;
-    color:#008cd7;
+    color:#0072b8;
 }
 #close{
     position: absolute;
